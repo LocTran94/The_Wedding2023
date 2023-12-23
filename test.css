@@ -1,0 +1,580 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1215px;
+    height: auto;
+
+}
+
+
+.header_content {
+    width: 1001px;
+    height: 58px;
+    margin: 0 99.5px 20px 99.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_content h4 {
+    font-family: 'Amatic SC', cursive;
+    color: red;
+    font-size: 20px;
+    font-weight-bold: 700;
+    line-height: 58px;
+    margin-left: 20px;
+}
+
+.navbar {
+    width: 780.03px;
+    display: flex;
+
+
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    line-height: 58px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+
+}
+
+li:hover {
+    color: red;
+}
+
+
+.homePage {
+    border-radius: 1%;
+    width: 1001px;
+    height: 400px;
+    margin: 0 99.5px 20px 99.5px;
+    background-image: url(public/couple-hugging-laughing-near-wall.png);
+    background-color: #d9d8d6;
+    background-repeat: no-repeat;
+    background-size: 1001px 400px;
+
+}
+
+
+.homePage__content {
+    padding: 50px;
+}
+
+.homePage__content h2 {
+    margin-bottom: 8px;
+    color: #cb7575;
+}
+
+
+.homePage__content h1 {
+    margin-bottom: 24px;
+    color: aliceblue;
+
+}
+
+
+.homePage__content p {
+    color: aliceblue;
+}
+
+.homePage__content p i {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(120deg);
+}
+
+
+.homePage__button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.homePage__button button {
+    width: 128.2px;
+    height: 54px;
+    margin-left: 50px;
+    background-color: #cb7575;
+    font-size: 15px;
+    color: aliceblue;
+    border-radius: 5%;
+    padding: 6px 6px;
+    border: none;
+
+}
+
+.homePage__button button:hover {
+    background-color: #f1c522;
+
+}
+
+
+.homePage__button .dateTime {
+    width: 172.550px;
+    height: 90px;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 5%;
+}
+
+
+
+
+
+.dateTime .one {
+    color: aliceblue;
+    width: 100%;
+    height: 45px;
+    font-size: 20px;
+background-color: red;
+    text-align: center;
+    padding: 8px;
+
+}
+
+.dateTime .two {
+    width: 100%;
+    text-align: center;
+    color: black;
+    height: 45px;
+    background-color: aliceblue;
+    padding: 8px;
+}
+
+
+.content .outStory {
+    width: 1001px;
+    height: 600px;
+    margin: 0 99.5px 100px 99.5px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+.outStory_title {
+    margin-bottom: 48px;
+}
+
+.outStory_title h2 {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 8px;
+}
+
+.outStory_title .icon {
+    text-align: center;
+}
+
+.outStory_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.protagonist_girl {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+
+}
+
+
+.protagonist_man {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.protagonist_man .protagonist__img {
+    width: 50%;
+    height: 375px;
+
+}
+
+.protagonist_girl .protagonist__img {
+    width: 50%;
+    height: 375px;
+
+}
+
+.protagonist__img img {
+    width: 250.25px;
+    height: 375px;
+    border-radius: 10px;
+
+}
+
+.protagonist__introduction {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.protagonist__introduction h4 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+.protagonist__introduction_icon {
+    margin-left: 20px;
+    margin-top: 210px;
+}
+
+
+.protagonist__introduction_iconMan {
+    margin-left: 20px;
+    margin-top: 191px;
+}
+
+.protagonist__introduction_icon .icon {
+
+    margin-right: 10px;
+}
+
+
+.protagonist__introduction_iconMan .icon {
+
+    margin-right: 10px;
+}
+
+
+.theWedding {
+    background-color: #f9f9f9;
+    height: 620px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+
+.theWedding .theWedding_title {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 40px;
+
+}
+
+.theWedding_title h2 {
+    margin-bottom: 8px;
+}
+
+
+.theWedding__img {
+    width: 1001px;
+    height: 400px;
+    margin: 0 99.5px 20px 99.5px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.theWedding__supImg img {
+    width: 311px;
+    height: 222.444px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+}
+
+.theWedding__supImg h3, p {
+    margin-left: 20px;
+    margin-bottom: 10px;
+
+}
+
+
+.People {
+    margin-bottom: 100px;
+}
+
+.People_title {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 40px;
+
+}
+
+.People_title h2 {
+    margin-bottom: 8px;
+}
+
+
+.People__content {
+    width: 1001px;
+    height: 500px;
+    margin: 0 99.5px 20px 99.5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sideBar {
+    width: 273px;
+    padding: 0 12px;
+    margin-top: 20px;
+}
+
+.People__content_introduction {
+    width: 640px;
+    height: 100%;
+    padding: 0 12px;
+}
+
+
+.sideBar button {
+    width: 232px;
+    height: 70px;
+    padding: 20px 16px;
+    text-align: left;
+    color: #ff5500;
+}
+
+
+.sup__introduction {
+    width: 616px;
+    height: 50%;
+    display: flex;
+}
+
+
+.sup__introduction_img {
+    width: 290.5px;
+    height: 230px;
+}
+
+
+.sup__introduction_img img {
+    width: 290.5px;
+    height: 230px;
+    border-radius: 20px;
+}
+
+
+.sup__introduction_content {
+    padding: 10px;
+    width: 310px;
+    height: 230px;
+}
+
+.sup__introduction_content h4 {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+.Gallery {
+    background-color: #f9f9f9;
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.Gallery_title {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 40px;
+}
+
+.Gallery_title h2 {
+    margin-bottom: 8px;
+}
+
+.Gallery_img {
+    width: 1001px;
+    height: 1000px;
+    margin: 0 99.5px 20px 99.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.Gallery_img_one {
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sup-Gallery_img_one {
+    width: 32%;
+    height: 500px;
+
+
+}
+
+.sup-Gallery_img_oneImg {
+    width: 32%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sup-Gallery_img_one img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.sup-Gallery_img_one_marry {
+    width: 100%;
+    height: 48%;
+}
+
+
+.sup-Gallery_img_one_marry img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+.Gallery_img_two {
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rsvp {
+    width: 100%;
+    height: 630px;
+    background-image: url(public/closeup-shot-newlywed-couple-sitting-bench.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.rsvp__content {
+    width: 685px;
+    height: 500px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 3%;
+    padding: 50px;
+}
+
+
+.rsvp_title {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 48px;
+}
+
+.rsvp_title h2 {
+    margin-bottom: 8px;
+}
+
+
+.rsvp_supTitle {
+    margin-bottom: 24px;
+}
+
+.rsvp_supTitle p {
+    margin-left: 0;
+}
+
+
+.rsvp__content form {
+    width: 100%;
+    text-align: center;
+}
+
+
+.form__input {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.form__input input, select {
+    height: 48px;
+    padding-left: 12px;
+    width: 178.4px;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+
+form button {
+    margin-top: 15px;
+    height: 48px;
+    width: 150px;
+    background-color: #ff5500;
+    border: none;
+    border-radius: 4%;
+    color: #f9f9f9;
+}
+
+form button:hover {
+    background-color: #f1c522;
+}
+
+
+.footer {
+    height: 400px;
+    padding-top: 80px;
+}
+
+.footer_title {
+    text-align: center;
+    color: #f1c522;
+    margin-bottom: 48px;
+}
+
+
+.footer__content {
+    width: 1001px;
+    height: 200px;
+    margin: 0 99.5px 20px 99.5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.sup__footer__content {
+    width: 33%;
+}
+
+
+.sup__footer__content p {
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+
+.sup__footer__content a {
+    margin-right: 10px;
+}
+
